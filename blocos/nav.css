@@ -1,0 +1,44 @@
+.subheader{
+
+}
+
+.subheader__title{
+    width: 793px;
+    height: 200px;
+    top: 194px;
+    left: 243px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.subheader__subtitle{
+    width: 720px;
+    height: 72px;
+    top: 426px;
+    left: 280px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    background: #FFFFFF;
+ }
+
+.subheader__image{
+    max-width: 984px;
+    max-height: 615px;
+    top: 562px;
+    left: 148px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
