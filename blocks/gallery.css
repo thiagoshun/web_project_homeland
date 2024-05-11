@@ -13,8 +13,8 @@
     max-height: 213px;
     width: 1184px;
     display: grid;
-    grid-template-columns: 284px;
-    grid-template-rows: 213px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
         
 }
