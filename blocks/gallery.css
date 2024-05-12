@@ -1,21 +1,13 @@
 .gallery{
-    max-width: 284px;
-    max-height: 214px;
     margin-top: 118px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 48px;
     }
+
 .gallery__content{
-    max-width: 284px;
-    max-height: 213px;
-    width: 1184px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 16px;
+    margin: 0 48px;
         
 }
 .gallery__image{

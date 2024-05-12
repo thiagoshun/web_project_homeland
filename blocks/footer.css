@@ -1,43 +1,98 @@
 .footer{
+    max-width: 1280px;
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .footer__content{
-    background-image: url(../images/footerbackground.png);
+    padding: 243px 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/footerbackground.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 
+.footer__content:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/footerbackground.png);
+}
+
+.footer__content-list{
+    width: 656px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer__content-title{
-   max-width: 656px;
-   max-height: 76px;
-    font-family: Inter;
+    margin: 0;
+    max-width: 656px;
+    max-height: 76px;
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
     text-align: center;
     color: #FFFDFD;
+    
     }
 
 .footer__content-subtitle{
+    margin-top: 32px 0 0 0;
     max-width: 280px;
-    max-height: 66px;
-    font-family: Inter;
+    max-height: 66px;   
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     text-align: center;
     color: #ffffff;
+}
+
+.footer__content-button {
+    margin-top: 32px;
+    margin-bottom: 252px;
+    width: 191px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #ffffff;
+    padding: 13px, 20px, 13px, 20px;
+    border-radius: 4px;
+    background-color: #0278fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+}
+
+.footer__content-button:hover{
+    background-color: #0063d2;
+}
+
+.footer__content-button:active{
+    background-color: #0278FE;
 
 }
 
 .footer__copyright{
+    margin: 92px 0 24px;
+
     max-width: 166px;
-    max-height: 16px;
-    font-family: "Inter";
+    max-height: 16px;    
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
-    text-align: right;
     color: #ffffff;
-
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
