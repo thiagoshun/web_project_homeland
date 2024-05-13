@@ -1,21 +1,48 @@
 .cities{
+    max-width: 984px;
+    margin-top: 92px;
 
 }
 
-.cities__content{}
+.cities__content{
+    display:grid;
+    gap:40px;
+    grid-template-areas:
+        "title artist"
+        "image texts"
+        "button texts"
+        ". texts" ;
 
-.cities__title{}
+}
 
-.cities__artist{}
+.cities__title{
+    grid-area: title;
+    max-width: 458px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    text-align: left;
+
+}
+
+.cities__artist{
+    grid-area:artist;
+}
 
 .cities__heading{}
 
 .cities__subheading{}
 
-.cities__image{}
+.cities__image{
+    grid-area: image;
+}
 
-.cities__content-paragraph{}
+.cities__content-paragraph{
+    grid-area: texts;
+}
 
 .cities__paragraph{}
 
-.cities__button{}
+.cities__button{
+    grid-area: button;
+}

@@ -1,5 +1,4 @@
 .footer{
-    max-width: 1280px;
     margin-top: 92px;
     display: flex;
     justify-content: center;
@@ -9,6 +8,7 @@
 }
 
 .footer__content{
+    max-width: 1184px;
     padding: 243px 0;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -26,7 +26,7 @@
 }
 
 .footer__content-list{
-    width: 656px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,15 +56,14 @@
 }
 
 .footer__content-button {
-    margin-top: 32px;
-    margin-bottom: 252px;
+    margin-top: 32px;    
     width: 191px;
     height: 48px;
     font-weight: 600;
     font-size: 18px;
     line-height: 21.78px;
     color: #ffffff;
-    padding: 13px, 20px, 13px, 20px;
+    padding: 13px 20px 13px 20px;
     border-radius: 4px;
     background-color: #0278fe;
     display: flex;
@@ -72,20 +71,16 @@
     align-items: center;
     border: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .footer__content-button:hover{
     background-color: #0063d2;
 }
 
-.footer__content-button:active{
-    background-color: #0278FE;
-
-}
 
 .footer__copyright{
     margin: 92px 0 24px;
-
     max-width: 166px;
     max-height: 16px;    
     font-size: 14px;
