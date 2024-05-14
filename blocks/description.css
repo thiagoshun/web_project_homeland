@@ -1,4 +1,6 @@
 .description{
+    max-width: 984px;
+    margin: 0 auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +9,7 @@
 .description__text{
     display: flex;
     flex-direction: column;
-    margin-left: 148px;
+    
 
 }
 
@@ -53,5 +55,9 @@
     text-align: left;
     color: #FFFFFF;
     margin: 32px 0 0;
+}
+
+@media screen and (max-width:1024px) {
+    
 }
 

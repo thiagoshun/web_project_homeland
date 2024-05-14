@@ -1,11 +1,16 @@
 .cities{
-    max-width: 984px;
+    
     margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .cities__content{
     display:grid;
+    justify-content: center;
     gap:40px;
     grid-template-areas:
         "title artist"
@@ -22,27 +27,67 @@
     font-weight: 900;
     line-height: 76px;
     text-align: left;
-
-}
+    color: white;
+    margin-top: 92px;
+    margin-bottom: 0;
+    }
 
 .cities__artist{
     grid-area:artist;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
 }
 
-.cities__heading{}
+.cities__heading{
+    color: #AAAAAA;
+    max-width: 57.82px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    margin-bottom: 8px;
+    
 
-.cities__subheading{}
+}
+
+.cities__subheading{
+    color: white;
+    margin: 0;
+}
 
 .cities__image{
     grid-area: image;
+    max-width: 458.6px;
+    max-height: 460px;
+    width: 100%;
 }
 
 .cities__content-paragraph{
     grid-area: texts;
+    
+    max-width: 482.53px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.34px;
 }
 
-.cities__paragraph{}
+.cities__paragraph{
+    color: white;
+}
 
 .cities__button{
     grid-area: button;
+    background: #0278FE;
+    width:284.13px; 
+    height: 48px;
+    padding: 13px 20px 13px 20px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+
 }
