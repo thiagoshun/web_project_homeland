@@ -23,8 +23,7 @@
 }
 
 .description__subtitle{
-    width: 737.78px;
-        
+    width: 737.78px;        
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -35,8 +34,7 @@
 
 .description__author{
     max-width: 732px;
-    max-height: 34px;
-    
+    max-height: 34px;    
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -58,6 +56,29 @@
 }
 
 @media screen and (max-width:1024px) {
-    
+    .description__title{
+    max-width: 707px;
+}
+    .description__subtitle{ 
+    max-width: 720px;
+
+}
+    .description__author{
+    max-width: 720px;
+}
+.description__paragraph{
+    width: 720px;
+}
 }
 
+@media screen and (max-width: 720px){
+    .description__title{
+    max-width: 288px;
+}
+    .description__author{
+    max-width: 288px;
+}
+.description__paragraph{
+    width: 288px;
+}
+}

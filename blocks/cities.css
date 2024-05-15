@@ -91,3 +91,59 @@
     box-sizing: border-box;
 
 }
+
+@media screen and (max-width: 1024px) {
+    .cities {
+      margin: 88px 24px 0;
+    }
+  
+  }
+
+  @media screen and (max-width: 720px) {
+    .cities {
+      margin: 62px 0 64px;
+      gap: 50px;
+    }
+  
+    .cities__content {
+      gap: 30px;
+      grid-template-columns: repeat( 1, 1fr );
+      grid-template-areas:
+        "title "
+        "artist"
+        "image "
+        "paragraph"
+        " paragraph"
+        " paragraph"
+        "button";
+    }
+  
+    .cities__title,
+    .cities__heading,
+    .cities__subheading {
+      margin: 0 16px;
+      max-width: 288px;
+    }
+  
+     .cities__image {
+      width: 100%;
+      height: 100%;
+      max-width: 460px;
+      max-height: 460px;
+    }
+   
+    .cities__content-paragraph {
+      margin: 0 16px;
+      max-width: 288px;
+    }
+  
+    .cities__paragraph {
+      max-width: 484px;
+    }
+  
+    .cities__button {
+      padding: 0;
+      margin: 0 16px;
+      width: 288px;
+    }
+  }
