@@ -1,4 +1,4 @@
-.description{
+.description {
     max-width: 984px;
     margin: 0 auto;
     width: 100%;
@@ -6,15 +6,13 @@
     flex-direction: column;
 }
 
-.description__text{
+.description__text {
     display: flex;
     flex-direction: column;
-    
-
 }
 
-.description__title{
-    max-width: 830px;        
+.description__title {
+    max-width: 830px;
     font-size: 54px;
     font-weight: 900;
     line-height: 58px;
@@ -22,8 +20,8 @@
     color: #FFFFFF;
 }
 
-.description__subtitle{
-    width: 737.78px;        
+.description__subtitle {
+    width: 737.78px;
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -32,7 +30,7 @@
     margin: 40px 0 0;
 }
 
-.description__author{
+.description__author {
     max-width: 732px;
     max-height: 34px;    
     font-size: 24px;
@@ -43,7 +41,7 @@
     margin: 10px 0 0;
 }
 
-.description__paragraph{
+.description__paragraph {
     width: 721.74px;
     height: 182px;
     
@@ -59,26 +57,26 @@
     .description__title{
     max-width: 707px;
 }
-    .description__subtitle{ 
+    .description__subtitle { 
     max-width: 720px;
 
 }
-    .description__author{
+    .description__author {
     max-width: 720px;
 }
-.description__paragraph{
+.description__paragraph {
     width: 720px;
 }
 }
 
-@media screen and (max-width: 720px){
-    .description__title{
+@media screen and (max-width: 720px) {
+    .description__title {
     max-width: 288px;
 }
-    .description__author{
+    .description__author {
     max-width: 288px;
 }
-.description__paragraph{
+.description__paragraph {
     width: 288px;
 }
 }
