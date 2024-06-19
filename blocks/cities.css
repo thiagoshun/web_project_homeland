@@ -80,8 +80,8 @@
 
 .cities__button{
     grid-area: button;
-    background: #0278FE;
     width:284.13px; 
+    background: #0278FE;
     height: 48px;
     padding: 13px 20px 13px 20px;
     border-radius: 4px;
