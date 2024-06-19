@@ -107,7 +107,7 @@
   
     .cities__content {
       gap: 30px;
-      grid-template-columns: repeat( 1, 1fr );
+      grid-template-columns: 1 1fr;
       grid-template-areas:
         "title "
         "artist"
