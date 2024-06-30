@@ -14,7 +14,6 @@
     object-fit: cover;
     width: 16rem;
     height: 12rem;
-    width: 100%;
     grid-gap:16px;
     
 }
@@ -30,7 +29,7 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 16px;
     }
-    
+
     .gallery__image{
         width: 24rem;
     }   
