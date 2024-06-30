@@ -11,8 +11,9 @@
         
 }
 .gallery__image{
-    max-width: 284px;
-    max-height: 213px;
+    object-fit: cover;
+    width: 16rem;
+    height: 12rem;
     width: 100%;
     grid-gap:16px;
     
@@ -28,10 +29,10 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 16px;
-        width: 984px;
     }
+    
     .gallery__image{
-        max-width: 352px; 
+        width: 24rem;
     }   
 }
 
