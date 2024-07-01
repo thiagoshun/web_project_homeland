@@ -4,17 +4,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .cities__content{
+    display:grid;
     justify-content: center;
     gap:40px;
     grid-template-areas:
         "title artist"
         "image texts"
         "button texts"
-        ".texts";
+        ". texts";
 
 }
 
@@ -104,14 +104,11 @@
   
     .cities__content {
       gap: 30px;
-      grid-template-columns: 1 1fr;
       grid-template-areas:
-        "title "
+        "title"
         "artist"
-        "image "
-        "paragraph"
-        " paragraph"
-        " paragraph"
+        "image"
+        "texts"
         "button";
     }
   
