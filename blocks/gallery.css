@@ -7,12 +7,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 16px;
-    margin: 0 48px;
-        
+    justify-content: center;
+    margin: 0 9rem;
 }
+
 .gallery__image{
     object-fit: cover;
-    width: 16rem;
+    width: 14rem;
     height: 12rem;
     grid-gap:16px;
     
@@ -21,17 +22,23 @@
 @media screen and (max-width: 1024px) {
     .gallery{
         margin-top: 90px;
-        width: 1024px;
-        }
+    
+}
     .gallery__content{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 16px;
+        justify-items: center;
+        margin: 1 48px;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
 
     .gallery__image{
-        width: 24rem;
+        width: 47vw;
+        height: 32vh;
+    
     }   
 }
 

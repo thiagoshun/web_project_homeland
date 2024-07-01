@@ -8,7 +8,6 @@
 }
 
 .cities__content{
-    display:grid;
     justify-content: center;
     gap:40px;
     grid-template-areas:
