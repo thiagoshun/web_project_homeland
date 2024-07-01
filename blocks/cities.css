@@ -15,7 +15,6 @@
         "image texts"
         "button texts"
         ". texts";
-
 }
 
 .cities__title{
@@ -28,7 +27,7 @@
     color: white;
     margin-top: 92px;
     margin-bottom: 0;
-    }
+}
 
 .cities__artist{
     grid-area:artist;
@@ -46,8 +45,6 @@
     letter-spacing: 0.12em;
     text-align: left;
     margin-bottom: 8px;
-    
-
 }
 
 .cities__subheading{
@@ -64,7 +61,6 @@
 
 .cities__content-paragraph{
     grid-area: texts;
-    
     max-width: 482.53px;
     font-weight: 400;
     font-size: 18px;
@@ -86,14 +82,12 @@
     text-decoration: none;
     text-align: center;
     box-sizing: border-box;
-
 }
 
 @media screen and (max-width: 1024px) {
     .cities {
       margin: 88px 24px 0;
     }
-  
   }
 
   @media screen and (max-width: 720px) {
