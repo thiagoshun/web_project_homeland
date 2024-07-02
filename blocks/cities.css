@@ -93,7 +93,7 @@
 
   @media screen and (max-width: 720px) {
     .cities {
-      margin: 62px 0 64px;
+      width: 100vw;
       gap: 50px;
     }
   
@@ -106,10 +106,18 @@
         "texts"
         "button";
     }
+
+    .cities__title {
+      font-size: 39px;
+      margin-top: 0;
+  }
+
+    .cities__artist {
+      margin: 1rem;
+  }
   
      .cities__image {
       height: 100%;
-      max-width: 460px;
       max-height: 460px;
     }
    

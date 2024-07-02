@@ -108,7 +108,9 @@
     }
   
      .footer__content {
-       padding: 46px 0 45px;
+        width: 100vw;
+        height: 10rem;
+        padding: 46px 0 45px;
     }
   
     .footer__content-item {

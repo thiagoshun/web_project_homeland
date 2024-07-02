@@ -69,10 +69,14 @@
 }
 
 @media screen and (max-width: 720px) {
+    .description__title {
+        max-width: auto;
+        width: auto; 
+        font-size: 3rem;
+}
+    
     .description__author {
     max-width: 288px;
 }
-.description__paragraph {
-    width: 288px;
-}
+
 }

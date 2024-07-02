@@ -56,7 +56,7 @@
 
   @media screen and (max-width: 720px) {
     .subheader {
-      width: 320px;
+      width: 100vw;
     }
   
     .subheader__title {
