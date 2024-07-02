@@ -54,10 +54,9 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-gap: 12px;
         margin-top: 270px;
-        width: 288px;
     }
+
     .gallery__image{
-        max-width: 288px;
-       
+        width: 90vw;
     }
 }

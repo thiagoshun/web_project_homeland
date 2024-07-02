@@ -73,7 +73,7 @@
 
 .cities__button{
     grid-area: button;
-    width:284.13px; 
+    width: 284.13px;
     background: linear-gradient(90deg, #0278fe 0%, #003a7b);
     height: 48px;
     padding: 13px 20px 13px 20px;
@@ -81,6 +81,7 @@
     color: white;
     text-decoration: none;
     text-align: center;
+    align-content: center;
     box-sizing: border-box;
 }
 
@@ -106,15 +107,7 @@
         "button";
     }
   
-    .cities__title,
-    .cities__heading,
-    .cities__subheading {
-      margin: 0 16px;
-      max-width: 288px;
-    }
-  
      .cities__image {
-      width: 100%;
       height: 100%;
       max-width: 460px;
       max-height: 460px;

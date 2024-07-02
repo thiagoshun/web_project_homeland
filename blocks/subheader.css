@@ -28,11 +28,10 @@
  }
 
 .subheader__image{
-    max-width: 984px;
     max-height: 615px;
     background-size: contain;
-    width: 100vw;
-
+    width: 84vw;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {
@@ -76,6 +75,12 @@
   
     .subheader__image {
       margin: 40px 0 0;
-      max-width: 320px;
+      width: 100vw;
+      margin-top: 4rem;
     }
+    
+    .subheader__subtitle {
+      font-size: 28px;
+      width: 95vw;
+  }
   }
