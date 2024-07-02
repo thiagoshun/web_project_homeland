@@ -93,7 +93,6 @@
 
   @media screen and (max-width: 720px) {
     .cities {
-      width: 100vw;
       gap: 50px;
     }
   
